@@ -40,6 +40,10 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+	Staging area is the area that you will add new files to commit to Git. Working directory contains all
+	files that you copy into it but if you don't add it into staging area, it will be invisible to Git.
+	The repository is where you commit all files that you have just added into staging area.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
